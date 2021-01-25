@@ -17,10 +17,10 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        BugFuck();
+        TestMethod();
     }
 
-    void BugFuck()
+    void TestMethod()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
